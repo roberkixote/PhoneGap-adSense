@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+		<title>Ejemplo de App</title>
+		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
+		
+		<script src="assets/js/phonegap.0.9.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/lawnchair/adaptors/DOMStorageAdaptor.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/lawnchair/adaptors/WebkitSQLiteAdaptor.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+		
+<!-- Enlace a la cuenta de Google Analytics. --> 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19949564-7']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<!-- El codigo para compartir los botones: 
+	http://sharethis.com/publishers/get-button-code?style=6 -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher:'f8c5a8de-4316-4fd0-a975-6969f8e1ec87'});</script>
+		
+	</head>
+	<body>
+ 		<div id="title_bar">Phone<strong>Gap</strong>, modify by Kixote</div>
+
+		<div id="welcome" class="view">
+		  <div class="app_button" id="map_button">Donde estoy?</div>
+  	      <div class="app_button" id="settings_button">Configuracion</div>
+		</div>
+
+		<div id="map" class="view">
+		  <div class="map_image">
+              <img id="static_map" src="assets/img/staticmap.png">
+		  </div>
+		  <p>Donde estas</p>
+		  <div class="app_button" id="welcome_button">Volver</div>
+		</div>
+
+		<div id="settings" class="view">
+		  <form id="settings_form">
+		    <fieldset>
+		      <legend>Map Type</legend>
+			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
+		      <input type="radio" name="map" value="satellite">Satellite<br/>
+		      <input type="radio" name="map" value="terrain">Terrain<br/>
+		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
+		    </fieldset>
+		    <fieldset>
+		      <legend>Zoom Level</legend>
+  		      <input type="radio" name="zoom" value="10">Super Far<br/>
+  		      <input type="radio" name="zoom" value="12">Far<br/>
+  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
+  		      <input type="radio" name="zoom" value="18">Close<br/>
+  		      <input type="radio" name="zoom" value="20">Super Close<br/>
+  		     </fieldset>
+		      <button id="save_button">Grabar</button>
+	      </form>
+		</div>
+		
+		
+<div align="center">
+<table align="center">
+<tr>
+<td>
+<!--  Kixote: AdSense  -->
+<div class="adsense">
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8801548622044513";
+/* mobile */
+google_ad_slot = "6387201418";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>	
+
+<br>
+
+<div align="center">
+<table align="center">
+<tr>
+<td>
+<!--  Kixote: AdSense  -->
+<div class="adsense">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8801548622044513";
+/* mobile2 */
+google_ad_slot = "9064181150";
+google_ad_width = 180;
+google_ad_height = 150;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</td>
+</tr>
+</table>
+</div>	
+<br>
+<div align="center" class="foto">
+<!--  
+Los botones para compartir. http://sharethis.com/publishers/get-button-code?style=6
+ -->
+<span class="st_twitter_hcount" displayText="Tweet"></span>
+<span class="st_facebook_hcount" displayText="Facebook"></span>
+<span class="st_email_hcount" displayText="E-mail"></span>
+</div>
+<br>
+	</body>
+</html>
