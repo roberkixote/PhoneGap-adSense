@@ -1,6 +1,7 @@
 body {
-  background: #fff;
+  background: #CCFFFF;
   background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#C8C8C8), color-stop(0.47, white), to(#C8C8C8));
+  background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#FFFF00), color-stop(0.47, white), to(#CCFF00));
   margin: 0;
   font: 18px Helvetica;
   text-align: center;
@@ -8,11 +9,12 @@ body {
 
 #title_bar {
   /* need a position set to something for z-index to take effect */
-  position: relative;
+
+	position: relative;
   z-index: 1;
-  background: #ccc;
-  background: -webkit-gradient(linear, 0 0, 0 70%, from(#fff), to(#ccc));
-  background: linear-gradient(#fff, #ccc 70%);
+background: #CCFF33;
+  background: -webkit-gradient(linear, 0 0, 0 70%, from(#00FF00), to(#00FFFF));
+  background: linear-gradient(#00FF00, #00FFFF 70%);
   color: #444;
   text-shadow: 0 1px 0 #fff;
   border-bottom: 1px solid #999;
@@ -59,7 +61,7 @@ body {
 #welcome {
   display: block;  
 }
-
+ 
 #map { 
   text-shadow: 0 1px 0 #fff;
 }
@@ -91,3 +93,37 @@ body {
   input {
     margin-bottom: 8px;
   }
+  
+.adsense { 
+	width: auto;
+	height: auto;
+	margin-top: 0.1em;
+	margin-left: 0.1em;
+	margin-button: 0.1em;
+	padding: 0.1em;	
+  background-color: #fff;
+  border:1px solid #AABBCC;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow:3px 3px 5px rgba(0,0,0, 1);
+  -moz-box-shadow:3px 3px 5px rgba(0,0,0, 1);
+  -webkit-box-shadow:3px 3px 5px rgba(0,0,0, 1);
+}
+
+.foto { 
+	width: autopx;
+	height: auto;
+	margin-top: 0.1em;
+	margin-left: 0.1em;
+	margin-button: 0.1em;
+	padding: 0.1em;	
+  background-color: #fff;
+  border:1px solid #AA0000;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow:3px 3px 5px rgba(0,0,0, 1.06);
+  -moz-box-shadow:3px 3px 5px rgba(0,0,0, 1.06);
+  -webkit-box-shadow:3px 3px 5px rgba(0,0,0, 1.06);
+}
