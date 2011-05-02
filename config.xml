@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.kisote.ejemplo01"
-	version 	= "1.0.0">
+	id		= "com.kixoft.mobile.ejemplos"
+	version 	= "1.0.10">
 
-	<name>Kixote: PG Basico</name>
+	<name>aPGjQM</name>
 
 	<description>
 		Un ejemplo de PhoneGap development and build.phonegap.com. Thanks a andrew.lunny@nitobi.com.
